@@ -1,0 +1,49 @@
+
+!!*
+comment 
+2nd line 
+*!!
+
+~header2
+~header3
+~include<stdio.h>
+
+double subfunc(int x, int y)
+[
+double subresult.
+
+subresult equal x sub b.
+
+return subresult.
+
+]
+
+main[]
+{
+int a,b,sum.
+double c.
+b equal 10.
+a equal 20.
+sum equal a add b.
+!!total sum
+
+if(sum grt 0)
+	show (sum).
+else 
+	show (error!!).
+
+
+for(int i equal 1;i lessorequal sum;i plusplus)
+{
+
+show(i).
+
+}
+
+c equal subfunc(a,b).
+show(c).
+
+show(good job!).
+
+return 0.
+}

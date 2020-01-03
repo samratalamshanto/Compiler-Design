@@ -1,0 +1,108 @@
+lex 7:: int
+lex 2:: prg_main
+lex 10:: (
+lex 11:: )
+lex 12:: {
+lex 7:: int
+lex 6:: var_i
+lex 18:: =
+lex 1 :: 10
+lex 7:: int
+lex 6:: var_j
+lex 18:: =
+lex 1 :: 10
+lex 4:: prg_print
+lex 10:: (
+lex 30:: "var"
+lex 11:: )
+lex 27:: if
+lex 10:: (
+lex 6:: var_i
+lex 14:: <=
+lex 6:: var_j
+lex 11:: )
+lex 12:: {
+lex 27:: if
+lex 10:: (
+lex 6:: var_i
+lex 23:: <
+lex 1 :: 10
+lex 11:: )
+lex 12:: {
+lex 4:: prg_print
+lex 10:: (
+lex 30:: "Nice"
+lex 11:: )
+lex 13:: }
+lex 25:: else if
+lex 10:: (
+lex 6:: var_j
+lex 16:: ==
+lex 1 :: 10
+lex 11:: )
+lex 12:: {
+lex 4:: prg_print
+lex 10:: (
+lex 30:: "Alos nice"
+lex 11:: )
+lex 13:: }
+lex 28:: else
+lex 12:: {
+lex 27:: if
+lex 10:: (
+lex 6:: var_i
+lex 23:: <
+lex 1 :: 8
+lex 11:: )
+lex 12:: {
+lex 4:: prg_print
+lex 10:: (
+lex 30:: "nh"
+lex 11:: )
+lex 13:: }
+lex 25:: else if
+lex 10:: (
+lex 6:: var_j
+lex 16:: ==
+lex 1 :: 0
+lex 11:: )
+lex 12:: {
+lex 4:: prg_print
+lex 10:: (
+lex 30:: "nz"
+lex 11:: )
+lex 13:: }
+lex 25:: else if
+lex 10:: (
+lex 6:: var_i
+lex 16:: ==
+lex 1 :: 10
+lex 11:: )
+lex 12:: {
+lex 4:: prg_print
+lex 10:: (
+lex 30:: "nc"
+lex 11:: )
+lex 13:: }
+lex 13:: }
+lex 13:: }
+lex 25:: else if
+lex 10:: (
+lex 6:: var_j
+lex 24:: >
+lex 6:: var_i
+lex 11:: )
+lex 12:: {
+lex 4:: prg_print
+lex 10:: (
+lex 30:: "bok"
+lex 11:: )
+lex 13:: }
+lex 28:: else
+lex 12:: {
+lex 4:: prg_print
+lex 10:: (
+lex 30:: "WHAT"
+lex 11:: )
+lex 13:: }
+lex 13:: }

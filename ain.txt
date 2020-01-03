@@ -1,0 +1,31 @@
+int prg_main()
+{
+    int var_i = 10;
+    int var_j = 10;
+    prg_print("var");
+    if(var_i<=var_j){
+        if(var_i<10){
+            prg_print("Nice");
+        }
+        else if(var_j==10){
+            prg_print("Alos nice");
+        }
+        else{
+            if(var_i<8){
+                prg_print("nh");
+            }
+            else if(var_j==0){
+                prg_print("nz");
+            }
+            else if(var_i==10){
+                prg_print("nc");
+            }
+        }
+    }
+    else if(var_j>var_i){
+        prg_print("bok");
+    }
+    else{
+        prg_print("WHAT");
+    }
+}
